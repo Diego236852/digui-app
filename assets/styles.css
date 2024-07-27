@@ -58,6 +58,7 @@ body {
     bottom: 60px; /* Ajusta el valor según el espacio necesario para el botón */
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1; /* Asegura que la paginación esté encima de otros elementos */
 }
 
 .dot {
@@ -80,7 +81,8 @@ button {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px; /* Asegura que el botón tenga espacio arriba */
+    margin-top: 10px; /* Asegura que el botón tenga espacio arriba */
+    z-index: 0; /* Asegura que el botón esté debajo de los puntos de paginación */
 }
 
 button:hover {
