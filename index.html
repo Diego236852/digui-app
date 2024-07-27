@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Bienvenida</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div id="welcome-screen">
+        <h1>DIGUI</h1>
+        <p>Creciendo Juntos</p>
+    </div>
+    <div id="info-screen" class="hidden">
+        <div class="content" id="page-1">
+            <h2>¿Qué es DIGUI?</h2>
+            <p>DIGUI es una app con juegos didácticos para niños con retraso.</p>
+            <button onclick="nextPage()">Siguiente</button>
+        </div>
+        <div class="content hidden" id="page-2">
+            <h2>Juegos Didácticos</h2>
+            <p>Ofrecemos una variedad de juegos diseñados para mejorar habilidades cognitivas y motoras.</p>
+            <button onclick="nextPage()">Siguiente</button>
+        </div>
+        <div class="content hidden" id="page-3">
+            <h2>Beneficios</h2>
+            <p>Los juegos de DIGUI ayudan a los niños a aprender de manera divertida y efectiva.</p>
+            <button onclick="nextPage()">Siguiente</button>
+        </div>
+        <div class="content hidden" id="page-4">
+            <h2>¡Únete a Nosotros!</h2>
+            <p>Descarga la app y empieza a explorar los beneficios de DIGUI hoy mismo.</p>
+            <button onclick="showLogin()">Ir a Inicio de Sesión</button>
+        </div>
+        <div class="pagination">
+            <span class="dot" id="dot-1"></span>
+            <span class="dot" id="dot-2"></span>
+            <span class="dot" id="dot-3"></span>
+            <span class="dot" id="dot-4"></span>
+        </div>
+    </div>
+    <div id="login-screen" class="hidden">
+        <div class="login-container">
+            <img src="logo.png" alt="DiGui" class="logo">
+            <input type="text" placeholder="Usuario" class="input-field">
+            <input type="password" placeholder="Contraseña" class="input-field">
+            <button class="login-button">Iniciar Sesión</button>
+            <a href="#" class="forgot-password">¿Olvidaste la contraseña?</a>
+            <button class="create-account-button">Crear Cuenta</button>
+        </div>
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+</html>
