@@ -32,6 +32,7 @@ body {
     animation: fadeIn 1s;
     max-width: 600px;
     margin: 0 auto;
+    position: relative;
 }
 
 .content.hidden {
@@ -51,7 +52,7 @@ body {
 .pagination {
     display: flex;
     justify-content: center;
-    margin: 10px 0;
+    margin-bottom: 10px; /* Espacio entre la paginación y el botón */
 }
 
 .dot {
@@ -74,6 +75,7 @@ button {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 10px; /* Asegura que el botón tenga espacio arriba */
 }
 
 button:hover {
