@@ -33,6 +33,7 @@ body {
     max-width: 600px;
     margin: 0 auto;
     position: relative;
+    padding-bottom: 50px; /* Espacio para los puntos de paginación */
 }
 
 .content.hidden {
@@ -53,6 +54,10 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 10px; /* Espacio entre la paginación y el botón */
+    position: absolute;
+    bottom: 60px; /* Ajusta el valor según el espacio necesario para el botón */
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .dot {
@@ -75,7 +80,7 @@ button {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px; /* Asegura que el botón tenga espacio arriba */
+    margin-top: 20px; /* Asegura que el botón tenga espacio arriba */
 }
 
 button:hover {
