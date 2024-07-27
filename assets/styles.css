@@ -55,7 +55,7 @@ body {
     justify-content: center;
     margin-bottom: 10px; /* Espacio entre la paginación y el botón */
     position: absolute;
-    bottom: 60px; /* Ajusta el valor según el espacio necesario para el botón */
+    bottom: 80px; /* Ajusta el valor según el espacio necesario para el botón */
     left: 50%;
     transform: translateX(-50%);
     z-index: 1; /* Asegura que la paginación esté encima de otros elementos */
@@ -81,7 +81,7 @@ button {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px; /* Asegura que el botón tenga espacio arriba */
+    margin-top: 20px; /* Asegura que el botón tenga espacio arriba */
     z-index: 0; /* Asegura que el botón esté debajo de los puntos de paginación */
 }
 
