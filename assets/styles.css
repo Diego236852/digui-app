@@ -53,9 +53,8 @@ body {
 .pagination {
     display: flex;
     justify-content: center;
-    margin-bottom: 10px; /* Espacio entre la paginación y el botón */
     position: absolute;
-    bottom: 80px; /* Ajusta el valor según el espacio necesario para el botón */
+    bottom: 50px; /* Ajusta la posición según sea necesario */
     left: 50%;
     transform: translateX(-50%);
     z-index: 1; /* Asegura que la paginación esté encima de otros elementos */
