@@ -57,7 +57,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    bottom: 60px; /* Ajusta la posición según sea necesario */
+    bottom: 70px; /* Ajusta la posición según sea necesario */
     left: 50%;
     transform: translateX(-50%);
     z-index: 1; /* Asegura que la paginación esté encima de otros elementos */
