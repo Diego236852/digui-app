@@ -45,16 +45,19 @@ body {
     color: #2b2b2b;
 }
 
-.content p {
-    font-size: 16px;
-    color: #2b2b2b;
+.content {
+    animation: fadeIn 1s;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 70px; /* Espacio para los puntos de paginación y el botón */
 }
 
 .pagination {
     display: flex;
     justify-content: center;
     position: absolute;
-    bottom: 50px; /* Ajusta la posición según sea necesario */
+    bottom: 60px; /* Ajusta la posición según sea necesario */
     left: 50%;
     transform: translateX(-50%);
     z-index: 1; /* Asegura que la paginación esté encima de otros elementos */
@@ -81,6 +84,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px; /* Asegura que el botón tenga espacio arriba */
+    position: relative; /* Asegura que el botón no interfiera con los puntos */
     z-index: 0; /* Asegura que el botón esté debajo de los puntos de paginación */
 }
 
