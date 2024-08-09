@@ -56,8 +56,8 @@ body {
 .pagination {
     display: flex;
     justify-content: center;
-    position: absolute;
-    bottom: 70px; /* Ajusta la posición según sea necesario */
+    position: relative; /* Cambiado a relative -Frank */
+    bottom: 120px; /* Ajusta la posición según sea necesario */ /* Cambiado a 120px para que estuvieran arriba de los botones -Frank */
     left: 50%;
     transform: translateX(-50%);
     z-index: 1; /* Asegura que la paginación esté encima de otros elementos */
